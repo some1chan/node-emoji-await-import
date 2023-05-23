@@ -1,0 +1,25 @@
+{
+  "name": "node-emoji-await-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "dev:watch": "tsx watch ./src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@types/node-emoji": "^1.8.2",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "node-emoji": "^2.0.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"lib": ["ES2022"],
+		"target": "ES2022",
+		"module": "ES2022",
+		"baseUrl": ".",
+		"outDir": "dist",
+		"rootDir": "src",
+		"strict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"forceConsistentCasingInFileNames": false,
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*", "src/**/*.json"],
+	"exclude": ["node_modules", "dist"]
+}
